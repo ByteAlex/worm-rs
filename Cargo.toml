@@ -1,0 +1,10 @@
+[package]
+name = "worm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+worm_macro = { path = "./worm_macro" }
+rest-nullable = { git = "https://github.com/ZeroTwo-Bot/rest-nullable-rs", rev = "d57e774434609da918e6ab7e4d24f16ef73d1e96" }
